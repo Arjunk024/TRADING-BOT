@@ -1,0 +1,20 @@
+2026-05-19 00:34:53,899 - INFO - Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-05-19 00:34:53,899 - ERROR - API Secret required for private endpoints
+2026-05-19 00:36:43,081 - INFO - Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-05-19 00:36:43,787 - ERROR - APIError(code=-2014): API-key format invalid.
+2026-05-19 00:37:10,910 - INFO - Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-05-19 00:37:11,852 - ERROR - APIError(code=-2014): API-key format invalid.
+2026-05-19 00:39:28,477 - INFO - Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-05-19 00:39:29,158 - ERROR - APIError(code=-2014): API-key format invalid.
+2026-05-19 16:00:06,998 - INFO - Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-05-19 16:00:07,476 - ERROR - APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-05-19 16:00:47,763 - INFO - Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-05-19 16:00:48,263 - ERROR - APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-05-19 16:07:48,985 - INFO - Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 50000.0, 'timeInForce': 'GTC'}
+2026-05-19 16:07:49,615 - ERROR - APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-05-19 16:11:18,523 - INFO - Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 50000.0, 'timeInForce': 'GTC'}
+2026-05-19 16:11:19,073 - ERROR - APIError(code=-2015): Invalid API-key, IP, or permissions for action
+2026-05-19 16:26:24,398 - INFO - Request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 50000.0, 'timeInForce': 'GTC'}
+2026-05-19 16:26:24,850 - ERROR - APIError(code=-4024): Limit price can't be lower than 73090.83.
+2026-05-19 16:26:57,350 - INFO - Request: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-05-19 16:26:57,837 - INFO - Response: {'orderId': 13161969310, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJcc07693e7d05e3c76e128c', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0010', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1779188218868}
